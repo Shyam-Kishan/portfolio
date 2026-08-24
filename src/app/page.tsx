@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <main>
@@ -26,9 +25,9 @@ export default function Home() {
             <a href="/robot">[ View Project ]</a>
           </div>
           <div className="w-full max-w-md p-6 rounded-xl border shadow-sm">
-            <h3 className="text-2xl">Multithreadded HTTP/1.1 Server</h3>
+            <h3 className="text-2xl">Multithreaded HTTP/1.1 Server</h3>
             <p>C · POSIX Threads · HTTP/1.1</p>
-            <p>A multithreadded HTTP server that supports GET and PUT methods,
+            <p>A multithreaded HTTP server that supports GET and PUT methods,
               while also producing error codes and messages.
             </p>
             <a href="/server">[ View Project ]</a>
