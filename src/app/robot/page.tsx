@@ -1,3 +1,10 @@
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "Autonomous Robot",
+    description: "An obstacle-avoiding robot built with an ultrasonic sensor, a custom wall-following algorithm, and a web app for live telemetry.",
+};
+
 export default function Robot() {
     return (
         <main className="flex flex-col items-center gap-8 px-6 py-16">
