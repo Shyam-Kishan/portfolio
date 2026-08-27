@@ -1,9 +1,12 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main>
 
-      <section className="flex flex-col items-center min-h-screen gap-4 px-4 py-40">
-        <h1 className="text-4xl md:text-6xl">Shyam Kishan</h1>
+      <section id="home" 
+        className="flex flex-col items-center min-h-screen gap-4 px-4 py-30">
+        <strong className="text-4xl md:text-6xl">Shyam Kishan</strong>
 
         <h2 className="text-2xl md:text-3xl">Computer Engineering Student</h2>
 
@@ -20,10 +23,41 @@ export default function Home() {
 
       </section>
 
-      <section id="projects" className="flex flex-col items-center justify-center min-h-screen gap-4">
+      <section id="education" className="flex flex-col items-center py-30 min-h-screen gap-4">
+        <strong className="text-4xl ">Education</strong>
 
-        <h2 className="text-2xl md:text-3xl">Featured Projects</h2>
-        
+        <div className="flex flex-col md:flex-row items-center px-5">
+          <div className="flex flex-col md:flex-row items-center w-full max-w-[700px] gap-4">
+            <Image
+              src="/ucsc_logo.svg"
+              alt="UCSC logo"
+              width={150}
+              height={150}
+            />
+            <div>
+              <h3 className="text-[25px] font-bold">University of California, Santa Cruz</h3>
+              <h4 className="text-[22px] font-bold text-blue-400">B.S. in Computer Engineering</h4>
+              <p>Sep 2023 - Present</p>
+              <div className="flex flex-row gap-1">
+                <p className="font-bold">GPA: </p>
+                <p>3.58/4.00</p>
+              </div>
+                <p className="font-bold underline">Relevant Coursework</p>
+                <p className="italic text-neutral-500">
+                  Data Structures and Algorithms, 
+                  Principles of Computer System Design,
+                  Logic Design,
+                  Computer Architecture
+                </p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="projects" className="flex flex-col items-center py-30 min-h-screen gap-4">
+
+        <strong className="text-4xl">Featured Projects</strong>
+
         <div className="flex flex-col md:flex-row items-center gap-8 px-5">
           <div className="w-full max-w-md p-6 rounded-xl border shadow-sm">
             <h3 className="text-2xl">Autonomous Robot</h3>
@@ -43,6 +77,11 @@ export default function Home() {
             <a href="/server">[ View Project ]</a>
           </div>
         </div>
+
+      </section>
+
+      <section id="about" className="flex flex-col items-center py-30 min-h-screen gap-4">
+        <strong className="text-4xl">About Me</strong>
 
       </section>
     </main>
