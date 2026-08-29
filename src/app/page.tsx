@@ -6,7 +6,7 @@ export default function Home() {
 
       <section id="home" 
         className="flex flex-col items-center min-h-screen gap-4 px-4 py-30">
-        <strong className="text-4xl md:text-6xl">Shyam Kishan</strong>
+        <h1 className="text-4xl md:text-6xl font-bold">Shyam Kishan</h1>
 
         <h2 className="text-2xl md:text-3xl">Computer Engineering Student</h2>
 
@@ -24,10 +24,10 @@ export default function Home() {
       </section>
 
       <section id="education" className="flex flex-col items-center py-30 min-h-screen gap-4">
-        <strong className="text-4xl ">Education</strong>
+        <h2 className="text-4xl font-bold">Education</h2>
 
         <div className="flex flex-col md:flex-row items-center px-5">
-          <div className="flex flex-col md:flex-row items-center w-full max-w-[700px] gap-4">
+          <div className="flex flex-col md:flex-row items-center w-full max-w-xl gap-4">
             <Image
               src="/ucsc_logo.svg"
               alt="UCSC logo"
@@ -56,7 +56,7 @@ export default function Home() {
 
       <section id="projects" className="flex flex-col items-center py-30 min-h-screen gap-4">
 
-        <strong className="text-4xl">Featured Projects</strong>
+        <h2 className="text-4xl font-bold">Featured Projects</h2>
 
         <div className="flex flex-col md:flex-row items-center gap-8 px-5">
           <div className="w-full max-w-md p-6 rounded-xl border shadow-sm">
@@ -81,8 +81,44 @@ export default function Home() {
       </section>
 
       <section id="about" className="flex flex-col items-center py-30 min-h-screen gap-4">
-        <strong className="text-4xl">About Me</strong>
+        <h2 className="text-4xl font-bold">About Me</h2>
+          <div className="flex flex-col md:flex-row items-center items-center gap-8 px-10">
+            <div className="flex flex-col md:flex-row items-center w-full p-6 rounded-xl border gap-4">
+              <Image
+                src="/IMG_9581.png"
+                alt="Shyam Kishan Full Body Photo"
+                width={300}
+                height={300}
+              />
 
+              <div className="flex flex-col items-center w-full gap-4">
+                <p>
+                  Outside of the classroom, I am a normal guy who is interested in building and messing 
+                  with computers, which is where I fell in love with the Computer Engineering field. 
+                  When I was in middle school, I badly wanted a gaming computer so I can have the 
+                  ultimate gaming experience. Obviously I didn't have the funds for such a luxury so 
+                  I would watch a bunch of YouTube videos of these people building computers, 
+                  setting it up with the proper software, going into the BIOS, 
+                  and running benchmarks on popular games. When I'd watch these videos, I was not only 
+                  intrigued, I was inspired because watching these YouTubers build computers made me want 
+                  to learn everything I possibly can about how a computer works. I am also interested in 
+                  competitive shooter video games, soccer, and football. My favorite soccer and football
+                  teams are Manchester City and the 49ers.
+                </p>
+
+                <p>
+                  As a current undergraduate, I am hoping to just get my foot into the world of 
+                  technology by pursuing entry-level roles such as internships. I am most interested in 
+                  Embedded Systems and Firmware Engineering fields, but I am also deeply passionate 
+                  about Software Engineering as well. Graduate school is a backup in case I don't end 
+                  up getting any sort of experience in the fields I am interested in, which is why I 
+                  don't have a set goal as to which school I would pursue if I were to continue Grad 
+                  school. However, if I end up falling short of my main plan, I am still very excited
+                  to further my education and continue building myself as a Computer Engineer.
+                </p>
+              </div>
+            </div>
+          </div>
       </section>
     </main>
   );
