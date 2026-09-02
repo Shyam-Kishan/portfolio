@@ -13,12 +13,16 @@ export default function Navbar() {
         <ul className="flex items-center gap-4">
             <li>
                 <Link className="underline hover:text-neutral-400 transition-colors duration-500"
-                href="/#education">Education</Link>
+                href="/#projects">Projects</Link>
             </li>
-
+            
             <li>
                 <Link className="underline hover:text-neutral-400 transition-colors duration-500"
-                href="/#projects">Projects</Link>
+                      href="/#skills">Skills</Link>
+            </li>
+            <li>
+                <Link className="underline hover:text-neutral-400 transition-colors duration-500"
+                href="/#education">Education</Link>
             </li>
             
             <li>
