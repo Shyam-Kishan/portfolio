@@ -1,14 +1,14 @@
 import Link from "next/link";
+import CopyEmailButton from "./Email_Button";
 
 export default function Footer() {
   return (
     <footer className="flex sticky bottom-0 z-50 justify-center
-                    items-center bg-neutral-900 px-5 py-5">
+                    items-center bg-neutral-900 px-5 py-5 font-mono">
 
-        <ul className="flex items-center gap-4">
+        <ul className="flex items-center gap-10">
             <li>
-                <a className="underline hover:text-neutral-400 transition-colors duration-500" 
-                href="mailto:shyamkishan109@gmail.com">Email</a>
+                <CopyEmailButton />
             </li>
 
             <li>
