@@ -11,13 +11,13 @@ export default function Navbar() {
     <nav className="flex sticky top-0 z-50 items-center justify-between bg-neutral-900 px-5 py-5 font-mono">
         <ul>
             <li>
-                <Link className="underline hover:text-neutral-400 transition-colors duration-500" 
+                <Link className="text-[14px] sm:text-lg underline hover:text-neutral-400 transition-colors duration-500" 
                 href="/#home">home</Link>
             </li>
         </ul>
 
         {/* Desktop: visble md and up, hidden below md*/}
-        <ul className="hidden md:flex items-center gap-4">
+        <ul className="hidden md:flex text-[10px] sm:text-lg items-center gap-4">
             <li>
                 <Link className="underline hover:text-neutral-400 transition-colors duration-500"
                 href="/#projects">projects</Link>
@@ -47,21 +47,21 @@ export default function Navbar() {
         {menuOpen && (
             <ul className="absolute top-full left-0 w-full flex flex-col items-center gap-4 bg-neutral-900 py-4 md:hidden">
                 <li>
-                    <Link className="underline hover:text-neutral-400 transition-colors duration-500"
+                    <Link className="text-[14px] underline hover:text-neutral-400 transition-colors duration-500"
                     href="/#projects">projects</Link>
                 </li>
                 
                 <li>
-                    <Link className="underline hover:text-neutral-400 transition-colors duration-500"
+                    <Link className="text-[14px] underline hover:text-neutral-400 transition-colors duration-500"
                         href="/#skills">skills</Link>
                 </li>
                 <li>
-                    <Link className="underline hover:text-neutral-400 transition-colors duration-500"
+                    <Link className="text-[14px] underline hover:text-neutral-400 transition-colors duration-500"
                     href="/#education">education</Link>
                 </li>
                 
                 <li>
-                    <Link className="underline hover:text-neutral-400 transition-colors duration-500"
+                    <Link className="text-[14px] underline hover:text-neutral-400 transition-colors duration-500"
                     href="/#about">about</Link>
                 </li>
             </ul>

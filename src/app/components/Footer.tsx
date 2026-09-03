@@ -7,26 +7,26 @@ export default function Footer() {
                     items-center bg-neutral-900 px-5 py-5 font-mono">
 
         <ul className="flex items-center gap-10">
-            <li className="text-[10px] sm:text-sm">
+            <li className="text-[14px] sm:text-lg">
                 <CopyEmailButton />
             </li>
 
             <li>
-                <a className="text-[10px] sm:text-sm underline hover:text-neutral-400 transition-colors duration-500"
+                <a className="text-[14px] sm:text-lg underline hover:text-neutral-400 transition-colors duration-500"
                 href="https://github.com/Shyam-Kishan"
                 rel="noopener noreferrer"
                 target="_blank">GitHub</a>
             </li>
 
             <li>
-                <a className="text-[10px] sm:text-sm underline hover:text-neutral-400 transition-colors duration-500"
+                <a className="text-[14px] sm:text-lg underline hover:text-neutral-400 transition-colors duration-500"
                 href="https://www.linkedin.com/in/shyam-kishan-3ab2a4268/"
                 rel="noopener noreferrer"
                 target="_blank">LinkedIn</a>
             </li>
 
             <li>
-                <a className="text-[10px] sm:text-sm underline hover:text-neutral-400 transition-colors duration-500"
+                <a className="text-[14px] sm:text-lg underline hover:text-neutral-400 transition-colors duration-500"
                     href="/Shyam_Kishan_Resume.pdf"
                     rel="noopener noreferrer"
                     target="_blank">Resume</a>
