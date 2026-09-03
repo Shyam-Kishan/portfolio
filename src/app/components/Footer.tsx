@@ -26,7 +26,7 @@ export default function Footer() {
             </li>
 
             <li>
-                <a className="text-[10px] underline hover:text-neutral-400 transition-colors duration-500"
+                <a className="text-[10px] sm:text-sm underline hover:text-neutral-400 transition-colors duration-500"
                     href="/Shyam_Kishan_Resume.pdf"
                     rel="noopener noreferrer"
                     target="_blank">Resume</a>
