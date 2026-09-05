@@ -70,13 +70,13 @@ export default function Server() {
                 </p>
             </section>
 
-            <section className=" w-full max-w-2xl">
+            <section className="text-center w-full max-w-2xl">
                 <a href="https://github.com/Shyam-Kishan/Multithreaded-HTTP-Server"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-3xl mb-2 underline hover:text-neutral-400 
+                    className="text-2xl mb-2 underline hover:text-neutral-400 
                     transition-colors duration-500">
-                    Project on GitHub
+                    View my Project on GitHub!
                 </a>
             </section>
         </main>

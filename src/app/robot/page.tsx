@@ -65,20 +65,20 @@ export default function Robot() {
                 </div>
             </section>
 
-            <section className="w-full max-w-2xl">
+            <section className="flex flex-col gap-3 w-full max-w-2xl">
                 <h2 className="text-3xl mb-2">Tech Stack</h2>
-                <p>
-                    C++ · Arduino · Python · Flask · JavaScript · Embedded Systems · Ultrasonic Sensing
-                </p>
+                <p>Firmware: C++ · Arduino</p>
+                <p>Backend: Python · FlaskAPI</p>
+                <p>Frontend: HTML · CSS · Javascript</p>
             </section>
 
-            <section className=" w-full max-w-2xl">
+            <section className="text-center w-full max-w-2xl">
                 <a href="https://github.com/Shyam-Kishan/Sentinel-Autonomous-Obstacle-Avoiding-Robot"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-3xl mb-2 underline hover:text-neutral-400 
+                    className="text-2xl mb-2 underline hover:text-neutral-400 
                     transition-colors duration-500">
-                    Project on GitHub
+                    View My Project on GitHub!
                 </a>
             </section>
         </main>
