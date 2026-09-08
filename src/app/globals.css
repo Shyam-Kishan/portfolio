@@ -11,15 +11,15 @@
 }
 
 :root {
-  --background: #fafaf9;
+  --background: #ececec;
   --foreground: #0a0a0a;
-  --accent: #0f6e56;
+  --accent:     #07ac83;
 }
 
 .dark {
   --background: #0a0a0a;
   --foreground: #fafaf9;
-  --accent: #1d9e75;
+  --accent:     #0da780;
 }
 
 body {

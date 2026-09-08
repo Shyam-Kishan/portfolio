@@ -77,7 +77,7 @@ export default function Home() {
 
           <div className="flex flex-col w-full max-w-xl gap-10">
             <h3 className="text-2xl underline">Languages</h3>
-            <div className="grid grid-cols-3 md:grid-cols-6 text-green-400 gap-4 text-[14px] sm:text-lg">
+            <div className="grid grid-cols-3 md:grid-cols-6 text-accent gap-4 text-[14px] sm:text-lg">
               <div className="flex flex-col items-center gap-4">
                 <SiC size={40} />
                 <p>C</p>
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             <h3 className="text-2xl underline">Frameworks & Libraries</h3>
-            <div className="grid grid-cols-3 text-green-400 gap-4 text-[14px] sm:text-lg">
+            <div className="grid grid-cols-3 text-accent gap-4 text-[14px] sm:text-lg">
 
               <div className="flex flex-col items-center gap-4 font-sans">
                 <SiReact size={40}/>
@@ -129,7 +129,7 @@ export default function Home() {
               
             </div>
             <h3 className="text-2xl underline">Tools</h3>
-            <div className="grid grid-cols-3 text-green-400 gap-4 text-[14px] sm:text-lg">
+            <div className="grid grid-cols-3 text-accent gap-4 text-[14px] sm:text-lg">
 
               <div className="flex flex-col items-center gap-4 font-sans">
                 <SiGithub size={40}/>
@@ -163,7 +163,7 @@ export default function Home() {
             />
             <div>
               <h3 className="text-[25px] font-bold">University of California, Santa Cruz</h3>
-              <h4 className="text-[22px] font-bold text-green-400">B.S. in Computer Engineering</h4>
+              <h4 className="text-[22px] font-bold text-accent">B.S. in Computer Engineering</h4>
               <p>Sep 2023 - Present</p>
               <div className="flex flex-row gap-1">
                 <p className="font-bold">GPA: </p>
