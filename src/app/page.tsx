@@ -2,6 +2,7 @@ import Image from "next/image";
 import { SiPython, SiCplusplus, SiC, SiGithub, SiLinux, 
          SiDocker, SiReact, SiHtml5, SiJavascript, 
          SiNextdotjs, SiFlask, SiTypescript} from "react-icons/si";
+import Badge from "./components/Badge"
 
 
 export default function Home() {
@@ -37,7 +38,14 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8 px-5">
           <div className="flex flex-col gap-2 w-full max-w-lg p-4 rounded-xl border">
             <h3 className="text-2xl text-center">Autonomous Robot</h3>
-            <p>C++ · Python · Flask · HTML · CSS · Javascript</p>
+            <p className="flex flex-row justify-center gap-4">
+                <Badge>C++</Badge>
+                <Badge>Python</Badge>
+                <Badge>Flask</Badge>
+                <Badge>HTML</Badge>
+                <Badge>CSS</Badge>
+                <Badge>Javascript</Badge>
+            </p>
             <p className="font-sans">A full-stack robotics system that enables real-time
               control and monitoring of an autonomous obstalce-avoiding robot through a web-based dashboard.
             </p>
@@ -47,7 +55,10 @@ export default function Home() {
 
           <div className="flex flex-col gap-2 w-full max-w-lg p-4 rounded-xl border">
             <h3 className="text-2xl text-center">Multithreaded HTTP/1.1 Server</h3>
-            <p>C · POSIX Threads</p>
+            <p className="flex flex-row justify-center gap-4">
+                <Badge>C</Badge>
+                <Badge>POSIX Threads</Badge>
+            </p>
             <p className="font-sans">A multithreaded HTTP server that supports GET and PUT methods,
               while also producing error codes and messages.
             </p>
