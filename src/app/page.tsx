@@ -188,7 +188,7 @@ export default function Home() {
 
       <section id="about" className="flex flex-col items-center py-30 min-h-screen justify-center gap-4">
         <h2 className="text-4xl font-bold font-mono">About Me</h2>
-              <div className="flex flex-col items-center w-full gap-4 px-5">
+              <div className="flex flex-col items-center w-full max-w-[1000px] gap-4 px-5">
                 <Image
                   src="/IMG_9581.png"
                   alt="Shyam Kishan Full Body Photo"
