@@ -38,14 +38,19 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8 px-5">
           <div className="flex flex-col gap-2 w-full max-w-lg p-4 rounded-xl border">
             <h3 className="text-2xl text-center">Autonomous Robot</h3>
-            <p className="flex flex-row justify-center gap-4">
+            <div className="flex flex-col lg:flex-row gap-2">
+              <p className="flex flex-row justify-center gap-4">
                 <Badge>C++</Badge>
                 <Badge>Python</Badge>
                 <Badge>Flask</Badge>
+              </p>
+
+              <p className="flex flex-row justify-center gap-4">
                 <Badge>HTML</Badge>
                 <Badge>CSS</Badge>
                 <Badge>Javascript</Badge>
-            </p>
+              </p>
+            </div>
             <p className="font-sans">A full-stack robotics system that enables real-time
               control and monitoring of an autonomous obstalce-avoiding robot through a web-based dashboard.
             </p>
@@ -183,17 +188,14 @@ export default function Home() {
 
       <section id="about" className="flex flex-col items-center py-30 min-h-screen justify-center gap-4">
         <h2 className="text-4xl font-bold font-mono">About Me</h2>
-          <div className="flex flex-col md:flex-row items-center gap-8 px-5">
-            <div className="flex flex-col md:flex-row items-center w-full p-6 gap-4">
-              <Image
-                src="/IMG_9581.png"
-                alt="Shyam Kishan Full Body Photo"
-                width={300}
-                height={300}
-              />
-
-              <div className="flex flex-col items-center w-full gap-4">
-                <p>
+              <div className="flex flex-col items-center w-full gap-4 px-5">
+                <Image
+                  src="/IMG_9581.png"
+                  alt="Shyam Kishan Full Body Photo"
+                  width={300}
+                  height={300}
+                />
+                <p className="text-[10px] md:text-[15px]">
                   Outside of the classroom, I am a normal guy who is interested in building and messing 
                   with computers, which is where I fell in love with the Computer Engineering field. 
                   When I was in middle school, I badly wanted a gaming computer so I can have the 
@@ -207,7 +209,7 @@ export default function Home() {
                   teams are Manchester City and the 49ers.
                 </p>
 
-                <p>
+                <p className="text-[10px] md:text-[15px]">
                   As a current undergraduate, I am hoping to just get my foot into the world of 
                   technology by pursuing entry-level roles such as internships. I am most interested in 
                   Embedded Systems and Firmware Engineering fields, but I am also deeply passionate 
@@ -218,8 +220,6 @@ export default function Home() {
                   to further my education and continue building myself as a Computer Engineer.
                 </p>
               </div>
-            </div>
-          </div>
       </section>
     </main>
   );
