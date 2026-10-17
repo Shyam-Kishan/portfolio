@@ -176,7 +176,7 @@ export default function Home() {
               </div>
                 <p className="font-bold underline">Relevant Coursework</p>
                 <p className="italic text-neutral-500">
-                  Data Structures and Algorithms, 
+                  Embedded Systems Design, Data Structures and Algorithms, 
                   Principles of Computer System Design,
                   Logic Design,
                   Computer Architecture
@@ -195,30 +195,37 @@ export default function Home() {
                   width={300}
                   height={300}
                 />
-                <p className="text-[10px] md:text-[15px]">
-                  Outside of the classroom, I am a normal guy who is interested in building and messing 
-                  with computers, which is where I fell in love with the Computer Engineering field. 
-                  When I was in middle school, I badly wanted a gaming computer so I can have the 
-                  ultimate gaming experience. Obviously I didn't have the funds for such a luxury so 
-                  I would watch a bunch of YouTube videos of these people building computers, 
-                  setting it up with the proper software, going into the BIOS, 
-                  and running benchmarks on popular games. When I'd watch these videos, I was not only 
-                  intrigued, I was inspired because watching these YouTubers build computers made me want 
-                  to learn everything I possibly can about how a computer works. I am also interested in 
-                  competitive shooter video games, soccer, and football. My favorite soccer and football
-                  teams are Manchester City and the 49ers.
-                </p>
 
-                <p className="text-[10px] md:text-[15px]">
-                  As a current undergraduate, I am hoping to just get my foot into the world of 
-                  technology by pursuing entry-level roles such as internships. I am most interested in 
-                  Embedded Systems and Firmware Engineering fields, but I am also deeply passionate 
-                  about Software Engineering. Graduate school is a backup in case I don't end 
-                  up getting any sort of experience in the fields I am interested in, which is why I 
-                  don't have a set goal as to which school I would pursue if I were to continue Grad 
-                  school. However, if I end up falling short of my main plan, I am still very excited
-                  to further my education and continue building myself as a Computer Engineer.
-                </p>
+                <div className="flex flex-col text-[10px] md:text-[15px] gap-4 px-5">
+                  <p>
+                    As a current undergraduate, I am hoping to just get my foot into the world of 
+                    technology by pursuing entry-level roles such as internships. I am most interested in 
+                    Embedded Systems and Firmware Engineering fields, but I am also deeply passionate 
+                    about Software Engineering. Graduate school is a backup in case I don't end 
+                    up getting any sort of experience in the fields I am interested in, which is why I 
+                    don't have a set goal as to which school I would pursue if I were to continue Grad 
+                    school. However, if I end up falling short of my main plan, I am still very excited
+                    to further my education and continue building myself as a Computer Engineer!
+                  </p>
+
+                  <p>
+                    Outside of the classroom, I am a normal guy who is interested in building and messing 
+                    with computers, which is where I fell in love with the Computer Engineering field. 
+                    When I was in middle school, I badly wanted a gaming computer so I can have the 
+                    ultimate gaming experience. Obviously I didn't have the funds for such a luxury so 
+                    I would watch a bunch of YouTube videos of these people building computers, 
+                    setting it up with the proper software, going into the BIOS, 
+                    and running benchmarks on popular games. When I'd watch these videos, I was not only 
+                    intrigued, I was inspired because watching these YouTubers build computers made me want 
+                    to learn everything I possibly can about how a computer works. 
+                  </p>
+
+                  <p>
+                    A quick couple fun facts about me, I am  interested in 
+                    competitive shooter video games, soccer, and football. My favorite soccer and football
+                    teams are Manchester City and the 49ers.
+                  </p>
+                </div>
               </div>
       </section>
     </main>

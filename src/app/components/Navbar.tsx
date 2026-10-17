@@ -11,7 +11,7 @@ export default function Navbar() {
     return (
     <nav className="sticky top-0 z-50 ">
         <div className="flex flex-col bg-background/80 backdrop-blur-sm px-5 py-5 font-mono">
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between">
                 <ul>
                     <li>
                         <Link className="text-[14px] sm:text-lg underline hover:text-neutral-400 transition-colors duration-500" 
