@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { SiPython, SiCplusplus, SiC, SiGithub, SiLinux, 
          SiDocker, SiReact, SiHtml5, SiJavascript, 
-         SiNextdotjs, SiFlask, SiTypescript} from "react-icons/si";
+         SiNextdotjs, SiFlask, SiTypescript, SiStmicroelectronics,
+         SiEspressif, SiArduino} from "react-icons/si";
 import Badge from "./components/Badge"
 
 
@@ -116,7 +117,6 @@ export default function Home() {
 
             <h3 className="text-2xl underline">Frameworks & Libraries</h3>
             <div className="grid grid-cols-3 text-accent gap-4 text-[14px] sm:text-lg">
-
               <div className="flex flex-col items-center gap-4 font-sans">
                 <SiReact size={40}/>
                 <p>React</p>
@@ -131,8 +131,8 @@ export default function Home() {
                 <SiFlask size={40}/>
                 <p>Flask</p>
               </div>            
-              
             </div>
+
             <h3 className="text-2xl underline">Tools</h3>
             <div className="grid grid-cols-3 text-accent gap-4 text-[14px] sm:text-lg">
 
@@ -150,6 +150,25 @@ export default function Home() {
                 <SiDocker size={40}/>
                 <p>Docker</p>
               </div>
+            </div>
+            <h3 className="text-2xl underline">Embedded & Hardware</h3>
+            <div className="grid grid-cols-3 text-accent gap-4 text-[14px] sm:text-lg">
+
+              <div className="flex flex-col items-center gap-4 font-sans">
+                <SiEspressif size={40}/>
+                <p>ESP32</p>
+              </div>
+            
+              <div className="flex flex-col items-center gap-4 font-sans">
+                <SiArduino size={40}/>
+                <p>Arduino</p>
+              </div>
+
+              <div className="flex flex-col items-center gap-4 font-sans">
+                <SiStmicroelectronics size={40}/>
+                <p>STM32</p>
+              </div>
+
             </div>
           </div>
         </div>
@@ -176,8 +195,9 @@ export default function Home() {
               </div>
                 <p className="font-bold underline">Relevant Coursework</p>
                 <p className="italic text-neutral-500">
-                  Embedded Systems Design, Data Structures and Algorithms, 
-                  Principles of Computer System Design,
+                  Data Structures and Algorithms,
+                  Principles of Computer System Design, 
+                  Machine Learning, Embedded Systems Design,
                   Logic Design,
                   Computer Architecture
                 </p>
